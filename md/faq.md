@@ -42,7 +42,7 @@ source venv/bin/activate  # Linux/macOS
 ### Q: 봇 토큰은 어디서 얻나요?
 1. [디스코드 개발자 포털](https://discord.com/developers/applications)에 접속
 2. 'New Application' 클릭
-3. Bot 섹션에서 'Add Bot' 클릭
+3. Bot 섹션 클릭
 4. 'Reset Token'을 클릭하여 새 토큰 발급
 5. **주의**: 토큰은 절대 공개하지 않는게 좋습니다.
 
