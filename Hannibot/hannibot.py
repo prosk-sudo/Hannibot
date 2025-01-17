@@ -2093,7 +2093,7 @@ async def 버그제보(ctx, 타입: str, 내용: str):
         await developer.send(embed=embed)
         await ctx.respond("최대한 빠른 시일 내에 버그를 수정하도록 하겠습니다! / 버그를 제보해주셔서 감사합니다!", ephemeral=True)
     except discord.HTTPException:
-        await ctx.respond("버그를 제보하는중 오류가 발생했어요...", kek=True)# 웹훅 URL 설정
+        await ctx.respond("버그를 제보하는중 오류가 발생했어요...", ephemeral=True)# 웹훅 URL 설정
 
 async def send_error_to_webhook(error_message):
     async with aiohttp.ClientSession() as session:
@@ -2186,7 +2186,7 @@ async def on_presence_update(before, after):
 # 
 #             await channel.send(embed=embed)
 # 
-#             # 입장 로그를 기록합니다.
+#             # 입장 로그를 기록
 #             timestamp = int(discord.utils.utcnow().timestamp())
 #             join_logs.append({
 #                 'timestamp': f"<t:{timestamp}:F>",
@@ -2197,7 +2197,7 @@ async def on_presence_update(before, after):
 #                 )
 #             })
 # 
-#             # 입장 로그가 너무 많아지지 않도록, 예를 들어 최근 10개의 로그만 보관합니다.
+#             # 입장 로그가 너무 많아지지 않도록, 최근 10개의 로그만 보관
 #             if len(join_logs) > 10:
 #                 join_logs.pop(0)
 
