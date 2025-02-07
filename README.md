@@ -121,5 +121,5 @@ python bot.py
 </div>
 
 <div align="center">
-  <p>Made with ❤️ by <a href="https://github.com/luxcoa">luxcoa</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/zynesa">zynesa</a></p>
 </div>
